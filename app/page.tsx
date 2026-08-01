@@ -1,8 +1,13 @@
 import Link from "next/link";
+import Script from "next/script";
 
 export default function Home() {
   return (
     <main className="min-h-screen w-full bg-[#020617] px-6 py-10 text-slate-300 sm:px-10 lg:px-16">
+      <Script
+        src="https://keepandroidopen.org/banner.js?size=minimal&animation=off&hidebutton=off"
+        strategy="afterInteractive"
+      />
       <div className="mx-auto w-full max-w-[1600px]">
         <section className="terminal-box border border-slate-700 bg-[#03111f] p-8">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
@@ -62,7 +67,6 @@ export default function Home() {
               matrix.org/clients
             </a>
           </article>
-
         </section>
       </div>
     </main>
