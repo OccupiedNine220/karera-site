@@ -29,6 +29,11 @@ export default function RootLayout({
             </div>
           </div>
         </footer>
+        <script
+          defer
+          src="https://umami.karera.fun/script.js"
+          data-website-id="da5e18fa-a058-4e20-a56a-7075e48360cd"
+        />
       </body>
     </html>
   );
